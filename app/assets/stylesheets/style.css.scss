@@ -1,0 +1,192 @@
+*{
+	margin: 0;
+	padding: 0
+}
+@import "bootstrap";
+
+
+
+*{
+	margin: 0;
+	padding: 0}
+
+body{
+	font-family: verdana;
+
+}
+
+
+header nav ul li {
+	list-style: none;
+	text-decoration: none;
+}
+header nav ul li a {
+	color: white;
+	text-decoration: none;
+}
+
+
+
+
+
+.relative{
+	position:relative;	
+}
+
+.absolute{
+	position:absolute;	
+}
+.destination-height{
+	height:250px;
+}
+.background-cover{
+	background-position:center;
+	background-size:cover;
+}
+.text-center{
+	text-align:center;
+}
+img{
+	width: 100%;
+	margin-left:10px;
+	box-sizing: border-box;
+}
+body{
+	margin: 0;
+	padding: 0;
+
+}
+#colombia{
+	background: red
+}
+
+/*Navigation*/
+.main_nav{
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	height: 50px
+
+
+}
+
+
+.main_nav ul{
+	background-color: rgb(0,0,0);
+	height: 50px;
+	box-shadow: 5px 5px 8px rgba(0,0,0,0.5)
+
+
+}
+
+.main_nav ul li{
+	display: inline-block;
+	padding: 15px 0
+
+}
+.main_nav ul li:hover{
+	background-color: olive
+
+}
+
+
+#mega_menu{
+	width: 100%;
+	height: 150px;
+	background-color: rgba(255,255,255,0.9);
+	text-align: center;
+	display: none;
+	margin-top: 0;
+	z-index: 3000;
+	position: absolute;
+	
+}
+/*.colombia{
+	width: 100px;
+	background-size: 50%;
+	background-image: url(cool.png);
+	position: absolute;
+
+	margin: 0 auto;
+	
+	margin-top: 55px;
+	z-index: 3001
+}
+*/
+	
+#mega_menu ul li a{
+	color: #333;
+	margin: 0 35px;
+	display: inline-block;
+	width: 100%;
+
+}
+
+#mega_menu ul li{
+	
+	text-decoration: none;
+	list-style: none;
+	height: 40px;
+    text-align: left !important;
+    padding: 7px 0
+    }
+#mega_menu ul li:hover{
+	background-color: rgb(108,204,90);
+	border-bottom: red solid 4px;
+
+}
+
+
+
+/*End Navigation*/
+
+#prueba{
+	background: 100%;
+	width: 100%;
+	text-align: center;
+	background: green;
+	margin-top: 0;
+	color: white;
+}
+
+#container{
+	
+	width: 80%;
+	
+	background-color: #C9D0DA;
+	margin-left: 25px
+}
+
+.tag{
+
+}
+h1{
+	font-size: 2em;
+	font-weight: 400;
+	z-index: 5;
+	line-height: 1.5;
+	
+}
+
+.bx{
+	background-image: url(bx.png);
+	background-repeat: no-repeat;
+	background-position: bottom left;
+	padding-bottom: 14px;
+	margin-left: -10px;
+}
+
+.bx .tx{
+	
+	padding: 4px 10px;
+	display: inline-block;
+	background-color: #5F8B02;
+	color: #fff;
+	line-height: 125%;
+	box-shadow: 5px 5px 5px 	rgba(0,0,0,0.5)
+}
+#destine{
+	padding: 10px 0;
+}
+
+

@@ -1,0 +1,56 @@
+<header class="">
+      <nav class="container main_nav">
+
+          <ul class="no-list row center-xs ">
+           <li class="col-md">
+            <%= link_to "Home", destinations_path %>
+          </li> 
+         <li class="col-xs" id="colombia" >
+            Colombia
+          </li> 
+          
+          <li class="col-xs outmega">
+            <%= link_to "HotDeals", deals_path %>
+          </li> 
+          
+        <% if user_signed_in? %>
+          <li class="col-md outmega">
+            <%= link_to "My Cart", route_path %>
+          </li>
+
+          <li class="col-md outmega">
+            <%= link_to "My Routes", buys_path %>
+          </li>
+
+          <li class="col-md outmega">
+            <%= link_to "Close Session", destroy_user_session_path, method: :delete %>
+          </li>
+        <% else %>
+          <li class="col-md outmega">
+            <%= link_to "Sign In", new_user_session_path %>
+          </li>
+          
+          <li class="col-md outmega">
+            <%= link_to "Create Account", new_user_registration_path %>
+          </li>
+        <% end %>
+
+          </ul>
+        </nav>
+        
+          <div id="mega_menu" class="container no-list">
+            <ul>
+            <% @categories.each do  |category| %>
+              <li class="col-md-4  category">
+                
+                <%= link_to category.name,category %> 
+                
+                
+              </li> 
+            <% end -%>
+            </ul>
+          </div>
+      
+</header>
+
+
